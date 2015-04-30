@@ -1,0 +1,36 @@
+<cn.edu.zafu.view.BottomControlPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="${packageName}.${activityClass}" >
+
+    
+	<cn.edu.zafu.view.ImageText
+	    android:id="@+id/btn_message"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    />
+	<cn.edu.zafu.view.ImageText
+	    android:id="@+id/btn_contact"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/btn_message"
+	    />
+	<cn.edu.zafu.view.ImageText
+	    android:id="@+id/btn_news"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/btn_contact"
+	    />
+	<cn.edu.zafu.view.ImageText
+	    android:id="@+id/btn_setting"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    />
+</cn.edu.zafu.view.BottomControlPanel>

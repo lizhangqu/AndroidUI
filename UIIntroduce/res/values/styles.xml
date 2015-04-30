@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="normal_vertical_layout_style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+
+</resources>

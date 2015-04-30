@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout style="@style/sharp_vertical_layout_style" >
+
+            <LinearLayout
+                android:id="@+id/option1"
+                style="@style/round_bar_top_layout_style"
+                android:layout_marginTop="15.0dip"
+                android:background="@drawable/round_back_top"
+                android:paddingBottom="10.0dip"
+                android:paddingTop="12.0dip" >
+
+                <TextView
+                    style="@style/textview_style_normal"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="选项一" />
+
+                <ImageView
+                    style="@style/imageview_style_normal"
+                    android:src="@drawable/arrow_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/option2"
+                style="@style/round_bar_mid_layout_style"
+                android:background="@drawable/round_back_middle"
+                android:paddingBottom="10.0dip"
+                android:paddingTop="10.0dip" >
+
+                <TextView
+                    style="@style/textview_style_normal"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="选项二" />
+
+                <ImageView
+                    style="@style/imageview_style_normal"
+                    android:src="@drawable/arrow_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/option3"
+                style="@style/round_bar_bottom_layout_style"
+                android:background="@drawable/round_back_bottom"
+                android:paddingBottom="16.0dip"
+                android:paddingTop="10.0dip" >
+
+                <TextView
+                    style="@style/textview_style_normal"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="选项三" />
+
+                <ImageView
+                    style="@style/imageview_style_normal"
+                    android:src="@drawable/arrow_right" />
+            </LinearLayout>
+            
+            
+             <LinearLayout
+                android:id="@+id/option4"
+                style="@style/round_bar_one_layout_style"
+                android:background="@drawable/round_back_one"
+                android:paddingBottom="10.0dip"
+                android:paddingTop="10.0dip"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    style="@style/textview_style_normal"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="选项四" />
+
+                <ImageView
+                    style="@style/imageview_style_normal"
+                    android:src="@drawable/arrow_right" />
+            </LinearLayout>
+        </LinearLayout>
+        
+       
+    </ScrollView>
+
+</LinearLayout>

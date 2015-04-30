@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:victory="http://schemas.victory.com/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_background"
+    android:orientation="vertical" >
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            style="@style/normal_vertical_layout_style"
+            android:padding="15.0dip" >
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/content_background"
+                android:minLines="6"
+                android:textColor="#ff1d1d1d"
+                android:text="@string/label" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
